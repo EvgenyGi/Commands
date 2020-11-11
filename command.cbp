@@ -32,8 +32,25 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
+		<Unit filename="Command.cpp" />
+		<Unit filename="Command.hpp" />
+		<Unit filename="CommandProcessor.cpp" />
+		<Unit filename="CommandProcessor.hpp" />
+		<Unit filename="Parser.cpp" />
+		<Unit filename="Parser.hpp" />
+		<Unit filename="Reader.cpp" />
+		<Unit filename="Reader.hpp" />
+		<Unit filename="Reader_file.hpp" />
+		<Unit filename="Reader_web.hpp" />
+		<Unit filename="Untitled2.hpp" />
+		<Unit filename="Untitled3.cpp" />
+		<Unit filename="include/Reader.h" />
 		<Unit filename="main.cpp" />
+		<Unit filename="src/Reader.cpp" />
 		<Extensions>
+			<code_completion>
+				<search_path add="C:\Users\jeky\Desktop\command\" />
+			</code_completion>
 			<lib_finder disable_auto="1" />
 		</Extensions>
 	</Project>

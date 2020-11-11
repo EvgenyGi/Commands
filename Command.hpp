@@ -24,6 +24,7 @@ class Command
         ReadMethod GetReadMethod();
         void SetMnemonic(std::string);
         void SetReadMethod (ReadMethod);
+        
    Command()
     {
 
