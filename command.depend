@@ -1,0 +1,43 @@
+# depslib dependency file v1.0
+1604395826 source:c:\users\evgeny.gesis\desktop\learn_program\code_block\traning_c\command\command.cpp
+
+1604848333 source:c:\users\evgeny.gesis\desktop\learn_program\code_block\traning_c\command\main.cpp
+	<iostream>
+	"CommandProcessor.hpp"
+	"parser.hpp"
+	"Reader.hpp"
+	"reader_web.hpp"
+	<fstream>
+	<string>
+
+1604495709 c:\users\evgeny.gesis\desktop\learn_program\code_block\traning_c\command\command.hpp
+	<iostream>
+	<string>
+
+1604481129 source:c:\users\evgeny.gesis\desktop\learn_program\code_block\traning_c\command\reader.cpp
+
+1604481639 source:c:\users\evgeny.gesis\desktop\learn_program\code_block\traning_c\command\parser.cpp
+
+1604491684 source:c:\users\evgeny.gesis\desktop\learn_program\code_block\traning_c\command\commandprocessor.cpp
+
+1604495709 c:\users\evgeny.gesis\desktop\learn_program\code_block\traning_c\command\commandprocessor.hpp
+	<iostream>
+	<string>
+	"Command.hpp"
+	<vector>
+
+1604497536 c:\users\evgeny.gesis\desktop\learn_program\code_block\traning_c\command\parser.hpp
+	<iostream>
+	<string>
+	<vector>
+
+1604481586 c:\users\evgeny.gesis\desktop\learn_program\code_block\traning_c\command\reader.hpp
+	<iostream>
+	<string>
+
+1604502707 c:\users\evgeny.gesis\desktop\learn_program\code_block\traning_c\command\reader_web.hpp
+	<iostream>
+	<string>
+
+1604395564 source:c:\users\evgeny.gesis\desktop\learn_program\code_block\traning_c\command\untitled3.cpp
+
