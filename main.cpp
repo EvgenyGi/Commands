@@ -1,5 +1,5 @@
 #include <iostream>
-//include "Command.hpp"
+#include "Command.hpp"
 #include "CommandProcessor.hpp"
 #include "Parser.hpp"
 #include "Reader.hpp"
@@ -7,26 +7,24 @@
 #include <fstream>
 #include <string>
 
-int main()
-{
-    std::string line;
-    std::ifstream test_file;
-    test_file.open ("C:/text.txt",std::ios::in);
+using namespace std;
 
-    
-    if (test_file.is_open())
+
+int main () {
+  string line;
+  ifstream myfile ;
+  myfile.open("text.txt.txt");
+
+  if (myfile.is_open())
+  {
+    while ( getline (myfile,line) )
     {
-        while (std::getline(test_file, line))
-        {
-            std::cout << line << std::endl;
-        }
-
-        test_file.close();
+      cout << line << '\n';
     }
-    
-    else
-    {
-        std::cout <<"Name file not correct " <<std::endl;
-    } 
+    myfile.close();
+  }
+  else cout << "Unable to open file"; 
+
+  return 0;
 
 }

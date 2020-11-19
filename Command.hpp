@@ -1,7 +1,7 @@
 #include <iostream>
 #include <string>
 
-
+#pragma once
 
 class Command
 {
@@ -12,10 +12,10 @@ class Command
         ReadMethod m_readMethod;
         WriteMethod m_writeMethod;
 
-        void*  m_readAccess;
-        void*  m_writeAccess;
-        int  m_minArgsToRead;
-        int  m_maxArgsToRead;
+        void* m_readAccess;
+        void* m_writeAccess;
+        int m_minArgsToRead;
+        int m_maxArgsToRead;
         int m_minArgsToWrite;
         int m_maxArgsToWrite;
 
@@ -25,7 +25,7 @@ class Command
         void SetMnemonic(std::string);
         void SetReadMethod (ReadMethod);
         
-   Command()
+    Command()
     {
 
     }

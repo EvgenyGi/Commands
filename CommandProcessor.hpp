@@ -5,9 +5,10 @@
 
 class CommandProcessor
 {
-    public:
-    std::vector <Command> commands;
-    void  Process();
-    Command find();
-
-} ;
+public:
+    std::vector<Command> commands;
+    void Process();
+   // Command Find();
+    //Command& Find();
+    //Command* Find();
+};

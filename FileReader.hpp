@@ -2,7 +2,7 @@
 #include <string>
 
 
-class read_file: public Reader
+class FileReader: public Reader
 {
     public:
         std:string file;
