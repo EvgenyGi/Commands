@@ -15,6 +15,8 @@ int main () {
   ifstream myfile ;
   myfile.open("text.txt.txt");
 
+  // Vadimsky first commit
+
   if (myfile.is_open())
   {
     while ( getline (myfile,line) )
